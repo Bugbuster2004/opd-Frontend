@@ -1,1 +1,0 @@
-chrome-extension://pmabjgjpcbofkbbeiphkiaanogobokgg/libs/jquery.min.js
