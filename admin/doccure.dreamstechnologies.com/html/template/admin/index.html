@@ -47,13 +47,9 @@
       content="The responsive professional Doccure template offers many features, like scheduling appointments with  top doctors, clinics, and hospitals via voice, video call & chat."
     />
     <meta name="twitter:image" content="assets/img/preview-banner.jpg" />
-    <title>Doccure - Dashboard</title>
+    <title>HalthSync- Admin</title>
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="assets/img/favicon.png"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
@@ -131,7 +127,7 @@
                         </span>
                         <div class="media-body flex-grow-1">
                           <p class="noti-details">
-                            <span class="noti-title">Dr. Ruby Perrin</span>
+                            <span class="noti-title">Dr. A</span>
                             Schedule
                             <span class="noti-title">her appointment</span>
                           </p>
@@ -154,8 +150,8 @@
                         </span>
                         <div class="media-body flex-grow-1">
                           <p class="noti-details">
-                            <span class="noti-title">Charlene Reed</span> has
-                            booked her appointment to
+                            <span class="noti-title">Patient B</span> has booked
+                            her appointment to
                             <span class="noti-title">Dr. Ruby Perrin</span>
                           </p>
                           <p class="noti-time">
@@ -177,8 +173,8 @@
                         </span>
                         <div class="media-body flex-grow-1">
                           <p class="noti-details">
-                            <span class="noti-title">Travis Trimble</span> sent
-                            a amount of $210 for his
+                            <span class="noti-title">Patient C</span> sent a
+                            amount of Rs.210 for his
                             <span class="noti-title">appointment</span>
                           </p>
                           <p class="noti-time">
@@ -462,14 +458,14 @@
                             <td>
                                 <h2 class="table-avatar">
                                     <a href="profile.html" class="avatar avatar-sm me-2">
-                                        <img class="avatar-img rounded-circle" src="${doctor.image}" alt=""/>
+                                        <img class="avatar-img rounded-circle" src="Rs.{doctor.image}" alt=""/>
                                     </a>
-                                    <a href="profile.html">${doctor.name}</a>
+                                    <a href="profile.html">Rs.{doctor.name}</a>
                                 </h2>
                             </td>
-                            <td>${doctor.speciality}</td>
-                            <td>${doctor.earned}</td>
-                            <td>${reviewStars}</td>
+                            <td>Rs.{doctor.speciality}</td>
+                            <td>Rs.{doctor.earned}</td>
+                            <td>Rs.{reviewStars}</td>
                         </tr>
                     `;
                 });
@@ -561,7 +557,7 @@
                                   src="assets/img/doctors/doctor-thumb-01.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Dr. Ruby Perrin</a>
+                              <a href="profile.html">Dr. A</a>
                             </h2>
                           </td>
                           <td>Dental</td>
@@ -575,7 +571,7 @@
                                   src="assets/img/patients/patient1.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Charlene Reed </a>
+                              <a href="profile.html">Patient 1 </a>
                             </h2>
                           </td>
                           <td>
@@ -597,7 +593,7 @@
                               >
                             </div>
                           </td>
-                          <td>$200.00</td>
+                          <td>Rs.200.00</td>
                         </tr>
                         <tr>
                           <td>
@@ -610,7 +606,7 @@
                                   src="assets/img/doctors/doctor-thumb-02.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Dr. Darren Elder</a>
+                              <a href="profile.html">Dr. B</a>
                             </h2>
                           </td>
                           <td>Dental</td>
@@ -624,7 +620,7 @@
                                   src="assets/img/patients/patient2.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Travis Trimble </a>
+                              <a href="profile.html">Patient 2 </a>
                             </h2>
                           </td>
                           <td>
@@ -646,7 +642,7 @@
                               >
                             </div>
                           </td>
-                          <td>$300.00</td>
+                          <td>Rs.300.00</td>
                         </tr>
                         <tr>
                           <td>
@@ -659,7 +655,7 @@
                                   src="assets/img/doctors/doctor-thumb-03.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Dr. Deborah Angel</a>
+                              <a href="profile.html">Dr. C</a>
                             </h2>
                           </td>
                           <td>Cardiology</td>
@@ -673,7 +669,7 @@
                                   src="assets/img/patients/patient3.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Carl Kelly</a>
+                              <a href="profile.html">Patient 3</a>
                             </h2>
                           </td>
                           <td>
@@ -695,7 +691,7 @@
                               >
                             </div>
                           </td>
-                          <td>$150.00</td>
+                          <td>Rs.150.00</td>
                         </tr>
                         <tr>
                           <td>
@@ -708,7 +704,7 @@
                                   src="assets/img/doctors/doctor-thumb-04.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Dr. Sofia Brient</a>
+                              <a href="profile.html">Dr. C</a>
                             </h2>
                           </td>
                           <td>Urology</td>
@@ -722,7 +718,7 @@
                                   src="assets/img/patients/patient4.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html"> Michelle Fairfax</a>
+                              <a href="profile.html"> Patient 4.</a>
                             </h2>
                           </td>
                           <td>
@@ -743,7 +739,7 @@
                               >
                             </div>
                           </td>
-                          <td>$150.00</td>
+                          <td>Rs.150.00</td>
                         </tr>
                         <tr>
                           <td>
@@ -756,7 +752,7 @@
                                   src="assets/img/doctors/doctor-thumb-05.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Dr. Marvin Campbell</a>
+                              <a href="profile.html">Dr. D</a>
                             </h2>
                           </td>
                           <td>Orthopaedics</td>
@@ -770,7 +766,7 @@
                                   src="assets/img/patients/patient5.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="profile.html">Gina Moore</a>
+                              <a href="profile.html">Patient 5.</a>
                             </h2>
                           </td>
                           <td>
@@ -792,7 +788,7 @@
                               >
                             </div>
                           </td>
-                          <td>$200.00</td>
+                          <td>Rs.200.00</td>
                         </tr>
                       </tbody>
                     </table>
